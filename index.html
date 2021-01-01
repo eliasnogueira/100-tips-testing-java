@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css\custom.css">
+    <title>100 Tips of Testing with Java</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-white">
+            <h1 class="display-4">100 Tips of Testing with Java</h1>
+            <p class="lead">This is a list of 100 tips using Java testing tools. You can find tips for <a
+                    href="http://junit.org" target="_blank">JUnit 5</a>, <a href="http://testng.org"
+                    target="_blank">TestNG</a>, <a href="http://wiremock.org" target="_blank">WireMock</a>, <a
+                    href="http://rest-assured.io" target="_blank">RestAssured</a>
+                and <a href="http://selenium.dev" target="_blank">Selenium WebDriver</a></p>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-offset-5 text-center">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="filterOptions" id="allTips" value="allTips" checked>
+                    <label class="form-check-label" for="allTips">All tips</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="filterOptions" id="junit5" value="junit">
+                    <label class="form-check-label" for="junit5">JUnit 5</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="filterOptions" id="selenium" value="selenium">
+                    <label class="form-check-label" for="selenium">Selenium WebDriver</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="filterOptions" id="wiremock" value="wiremock">
+                    <label class="form-check-label" for="wiremock">WireMock</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="filterOptions" id="testng" value="testng">
+                    <label class="form-check-label" for="testng">TestNG</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="filterOptions" id="restassured"
+                        value="restassured">
+                    <label class="form-check-label" for="restassured">RestAssured</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <div id="cardList" class="row">
+            </div>
+        </div>
+
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="text-center center-block">
+                <a href="https://www.facebook.com/bootsnipp"><i id="social-fb"
+                        class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="https://twitter.com/bootsnipp"><i id="social-tw"
+                        class="fa fa-twitter-square fa-3x social"></i></a>
+                <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp"
+                        class="fa fa-google-plus-square fa-3x social"></i></a>
+                <a href="mailto:bootsnipp@gmail.com"><i id="social-em"
+                        class="fa fa-envelope-square fa-3x social"></i></a>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="js/load.js"></script>
+</body>
+
+</html>
