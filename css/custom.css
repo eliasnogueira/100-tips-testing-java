@@ -34,22 +34,22 @@ body {
     -o-transition-duration: 0.5s;
 }
 
-/*
-Multicoloured Hover Variations
-*/
-
-#social-fb:hover {
-    color: #3B5998;
-}
-
-#social-tw:hover {
-    color: #4099FF;
-}
-
-#social-gp:hover {
-    color: #d34836;
-}
-
-#social-em:hover {
-    color: #f39c12;
-}
+#scrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #2e85f4;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #scrollToTop:hover {
+    background-color: #555;
+  }
