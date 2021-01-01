@@ -1,0 +1,602 @@
+[
+    {
+      "number": 1,
+      "tool": "JUNIT",
+      "tip": "With JUnit5 you can parameterize your tests using a <code>ValueSource</code>",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests"
+    },
+    {
+      "number": 2,
+      "tool": "SELENIUM",
+      "tip": "Selenium WebDriver has a Grid based on Docker images where you can distribute and/or parallelise your web tests",
+      "link": "https://github.com/SeleniumHQ/docker-selenium"
+    },
+    {
+      "number": 3,
+      "tool": "WIREMOCK",
+      "tip": "You can run WireMock in different modes: standalone, JUnit 4.x Rule or through the <code>WireMockServer</code> class",
+      "link": "http://wiremock.org/docs/getting-started"
+    },
+    {
+      "number": 4,
+      "tool": "TESTNG",
+      "tip": "TestNG was an extensively Command Line Parameters to run your tests",
+      "link": "https://testng.org/doc/documentation-main.html#running-testng"
+    },
+    {
+      "number": 5,
+      "tool": "RESTASSURED",
+      "tip": "With RestAssured you can configure it to return <code>BigDecimal</code> instead of <code>float</code> or <code>double</code>",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#returning-floats-and-doubles-as-bigdecimal"
+    },
+    {
+      "number": 6,
+      "tool": "JUNIT",
+      "tip": "You can your use Composed Annotation to add more than one action for your tests, like the <code>@Test</code> and a filter using JUnit5",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-meta-annotations"
+    },
+    {
+      "number": 7,
+      "tool": "SELENIUM",
+      "tip": "Selenium WebDriver needs a binary for the browser you will use",
+      "link": "https://www.selenium.dev/documentation/en/webdriver/driver_requirements"
+    },
+    {
+      "number": 8,
+      "tool": "WIREMOCK",
+      "tip": "You can easily create a Mock Server with a few lines of code using WireMock",
+      "link": "http://wiremock.org/docs/java-usage"
+    },
+    {
+      "number": 9,
+      "tool": "TESTNG",
+      "tip": "You can create Test Groups to easily filter your test by any category with TestNG",
+      "link": "https://testng.org/doc/documentation-main.html#test-groups"
+    },
+    {
+      "number": 10,
+      "tool": "RESTASSURED",
+      "tip": "With RestAssured you can choose between Jackson, Jackson2, GSON or Johnzon to use the automatic serialization/deserialization",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#object-mapping"
+    },
+    {
+      "number": 11,
+      "tool": "JUNIT",
+      "tip": "With JUnit5 you can use <code>@DisplayName</code> to add a custom name during the test execution instead of seeing the test method name.",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-display-names"
+    },
+    {
+      "number": 12,
+      "tool": "SELENIUM",
+      "tip": "You can locate one or more elements using different locators in Selenium WebDriver",
+      "link": "https://www.selenium.dev/documentation/en/getting_started_with_webdriver/locating_elements"
+    },
+    {
+      "number": 13,
+      "tool": "WIREMOCK",
+      "tip": "With WireMock you can apply different configurations like network and port bindings, http, proxy, file location, gzip, cors, etc...",
+      "link": "http://wiremock.org/docs/configuration"
+    },
+    {
+      "number": 14,
+      "tool": "TESTNG",
+      "tip": "You can inject data into your tests using the <code>@Parameter</code> annotation in TestNG",
+      "link": "https://testng.org/doc/documentation-main.html#parameters"
+    },
+    {
+      "number": 15,
+      "tool": "RESTASSURED",
+      "tip": "With RestAssured you can validate your JSON Schema.",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#json-schema-validation"
+    },
+    {
+      "number": 16,
+      "tool": "JUNIT",
+      "tip": "With JUnit5 you can use Java 8 lambdas inside the assertions",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-display-names"
+    },
+    {
+      "number": 17,
+      "tool": "SELENIUM",
+      "tip": "You can perform actions like click, type and drag-and-drop in Selenium WebDriver",
+      "link": "https://www.selenium.dev/documentation/en/getting_started_with_webdriver/performing_actions_on_the_aut"
+    },
+    {
+      "number": 18,
+      "tool": "WIREMOCK",
+      "tip": "You can run WireMock standalone creating service virtualization for your necessity using the jar file or writing Java code",
+      "link": "http://wiremock.org/docs/running-standalone"
+    },
+    {
+      "number": 19,
+      "tool": "TESTNG",
+      "tip": "With TestNG you can add dependency between tests",
+      "link": "https://testng.org/doc/documentation-main.html#dependent-methods"
+    },
+    {
+      "number": 20,
+      "tool": "RESTASSURED",
+      "tip": "With RestAssured you can extract values from the JSON response using the JSON Path",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#json-using-jsonpath"
+    },
+    {
+      "number": 21,
+      "tool": "JUNIT",
+      "tip": "You can use Assumptions on JUnit5 to assume you are in the expected state/place, like on the dev environment",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-assumptions"
+    },
+    {
+      "number": 22,
+      "tool": "SELENIUM",
+      "tip": "You can manipulate the browser doing actions like navigation, back, forward, refresh and manage different windows in Selenium WebDriver",
+      "link": "https://www.selenium.dev/documentation/en/webdriver/browser_manipulation"
+    },
+    {
+      "number": 23,
+      "tool": "WIREMOCK",
+      "tip": "You can create a Stub using WireMock, adding priority, sending response headers and specifying the response body to it",
+      "link": "http://wiremock.org/docs/stubbing"
+    },
+    {
+      "number": 24,
+      "tool": "TESTNG",
+      "tip": "You can create tests dynamically using the <code>@Factory</code> annotation in TestNG",
+      "link": "https://testng.org/doc/documentation-main.html#factories"
+    },
+    {
+      "number": 25,
+      "tool": "RESTASSURED",
+      "tip": "With RestAssured you can extract values from the XML response using the XML Path",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#xml-using-xmlpath"
+    },
+    {
+      "number": 26,
+      "tool": "JUNIT",
+      "tip": "That's ok to disable a test sometimes and you can do it with JUnit5, of course, adding a description",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-disabling"
+    },
+    {
+      "number": 27,
+      "tool": "SELENIUM",
+      "tip": "Selenium WebDriver has different strategies to wait for asynchronous actions in the browser",
+      "link": "https://www.selenium.dev/documentation/en/webdriver/waits"
+    },
+    {
+      "number": 28,
+      "tool": "WIREMOCK",
+      "tip": "You can verify that a request matching a specific pattern was received, and also to fetch the requested details in WireMock",
+      "link": "http://wiremock.org/docs/verifying"
+    },
+    {
+      "number": 29,
+      "tool": "TESTNG",
+      "tip": "With TestNG you can ignore <code>@Test</code> methods in a class and/or package",
+      "link": "https://testng.org/doc/documentation-main.html#ignore-tests"
+    },
+    {
+      "number": 30,
+      "tool": "RESTASSURED",
+      "tip": "With RestAssured you can get headers, cookies, status line, and status code from the response body",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#headers-cookies-status-etc"
+    },
+    {
+      "number": 31,
+      "tool": "JUNIT",
+      "tip": "You can enable or disable a test with JUnit5 based on a certain condition, like the OS or JDK version",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-conditional-execution"
+    },
+    {
+      "number": 32,
+      "tool": "SELENIUM",
+      "tip": "Selenium WebDriver has the <code>ThreadGuard</code> (Java only) to check that a driver is called only from the same thread that created it",
+      "link": "https://www.selenium.dev/documentation/en/webdriver/support_classes"
+    },
+    {
+      "number": 33,
+      "tool": "WIREMOCK",
+      "tip": "WireMock can match the requests by URL, HTTP Methods, Query Parameter, Header, Basic Authentication, Cookies, Request body, and Multipart/form-data",
+      "link": "http://wiremock.org/docs/request-matching"
+    },
+    {
+      "number": 34,
+      "tool": "TESTNG",
+      "tip": "TestNG let you run your test in Parallel for tests, classes, or methods",
+      "link": "https://testng.org/doc/documentation-main.html#parallel-running"
+    },
+    {
+      "number": 35,
+      "tool": "RESTASSURED",
+      "tip": "RestAssured will automatically determine which parameter type to use based on the HTTP method, and that's ok if you explicitly add them",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#parameters"
+    },
+    {
+      "number": 36,
+      "tool": "JUNIT",
+      "tip": "Tag is a excellent way to divide your tests into different test levels or any other aspect, and you can do it with JUnit5",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-tagging-and-filtering"
+    },
+    {
+      "number": 37,
+      "tool": "SELENIUM",
+      "tip": "Selenium WebDriver can work with the three types of native popup messages: alerts, prompts, and confirmations",
+      "link": "https://www.selenium.dev/documentation/en/webdriver/js_alerts_prompts_and_confirmations"
+    },
+    {
+      "number": 38,
+      "tool": "WIREMOCK",
+      "tip": "WireMock has the ability to selectively proxy requests through to other hosts",
+      "link": "http://wiremock.org/docs/proxying"
+    },
+    {
+      "number": 39,
+      "tool": "TESTNG",
+      "tip": "You can create a Retry strategy to run the failed tests in TestNG",
+      "link": "https://testng.org/doc/documentation-main.html#rerunning"
+    },
+    {
+      "number": 40,
+      "tool": "RESTASSURED",
+      "tip": "With RestAssured you can replace the fixed path parameter values using the named/unnamed path parameters",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#path-parameters"
+    },
+    {
+      "number": 41,
+      "tool": "JUNIT",
+      "tip": "In a few cases, we need to order the test execution, and it's easily done with JUnit5",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-test-execution-order"
+    },
+    {
+      "number": 42,
+      "tool": "SELENIUM",
+      "tip": "You can use Selenium WebDriver behind a corporate proxy",
+      "link": "https://www.selenium.dev/documentation/en/webdriver/http_proxies"
+    },
+    {
+      "number": 43,
+      "tool": "WIREMOCK",
+      "tip": "WireMock can create stub mappings from requests it has received. Combined with its proxying feature this allows you to “record” stub mappings from interaction with existing APIs",
+      "link": "http://wiremock.org/docs/record-playback"
+    },
+    {
+      "number": 44,
+      "tool": "TESTNG",
+      "tip": "You can run tests programmatically using TestNG",
+      "link": "https://testng.org/doc/documentation-main.html#running-testng-programmatically"
+    },
+    {
+      "number": 45,
+      "tool": "RESTASSURED",
+      "tip": "With RestAssured you can specify a cookie to use in the request",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#cookies"
+    },
+    {
+      "number": 46,
+      "tool": "JUNIT",
+      "tip": "In JUnit5 you can choose if the tests will be executed in isolation or in the same instance using <code>@TestInstance</code>",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-test-instance-lifecycle"
+    },
+    {
+      "number": 47,
+      "tool": "SELENIUM",
+      "tip": "Selenium WebDriver has a Page Loading Strategy where you can wait until it downloads all the resources or the DOM to be ready",
+      "link": "https://www.selenium.dev/documentation/en/webdriver/page_loading_strategy"
+    },
+    {
+      "number": 48,
+      "tool": "WIREMOCK",
+      "tip": "You can create Response Templates in WireMock",
+      "link": "http://wiremock.org/docs/response-templating"
+    },
+    {
+      "number": 49,
+      "tool": "TESTNG",
+      "tip": "TestNG let you use the Bean Shell expression to include or exclude groups in the <code>testsuite.xml</code>",
+      "link": "https://testng.org/doc/documentation-main.html#beanshell"
+    },
+    {
+      "number": 50,
+      "tool": "RESTASSURED",
+      "tip": "With RestAssured you can set one or more headers in the request",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#headers"
+    },
+    {
+      "number": 51,
+      "tool": "JUNIT",
+      "tip": "In JUnit5 you can create Nested Tests",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-test-instance-lifecycle"
+    },
+    {
+      "number": 52,
+      "tool": "SELENIUM",
+      "tip": "Selenium WebDriver has the <code>WebElement</code> class where you can hold the element you locate and use all the properties he has",
+      "link": "https://www.selenium.dev/documentation/en/webdriver/web_element"
+    },
+    {
+      "number": 53,
+      "tool": "WIREMOCK",
+      "tip": "You can inject faulty behaviour that might be difficult to get the real service to produce on demand in WireMock",
+      "link": "http://wiremock.org/docs/simulating-faults"
+    },
+    {
+      "number": 54,
+      "tool": "TESTNG",
+      "tip": "You can modify the TestNG behavior using Listeners, where the most popular is the <code>ITestListener</code>",
+      "link": "https://testng.org/doc/documentation-main.htmlTestNG-listeners"
+    },
+    {
+      "number": 55,
+      "tool": "RESTASSURED",
+      "tip": "You can create a class with the same payload attributes to easily manage it, and RestAssured will do the automatic se/deserialization",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#object-mapping"
+    },
+    {
+      "number": 56,
+      "tool": "JUNIT",
+      "tip": "Instead of classes, you can use Interfaces to use some JUnit5 annotations",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-test-interfaces-and-default-methods"
+    },
+    {
+      "number": 57,
+      "tool": "SELENIUM",
+      "tip": "You can type a text, clear its contents in an input field, or use key down/key up in Selenium WebDriver",
+      "link": "https://www.selenium.dev/documentation/en/webdriver/keyboard"
+    },
+    {
+      "number": 58,
+      "tool": "WIREMOCK",
+      "tip": "You can simulate a Stateful Behaviour in WireMock",
+      "link": "http://wiremock.org/docs/stateful-behaviour"
+    },
+    {
+      "number": 59,
+      "tool": "TESTNG",
+      "tip": "TestNG supports dependency injection declaring additional parameters in some annotations",
+      "link": "https://testng.org/doc/documentation-main.html#dependency-injection"
+    },
+    {
+      "number": 60,
+      "tool": "RESTASSURED",
+      "tip": "With RestAssured you can verify the response data like response body, cookies, status, headers, and content-type",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#verifying-response-data"
+    },
+    {
+      "number": 61,
+      "tool": "JUNIT",
+      "tip": "In JUnit5 you can repeat a test a specified number of times",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-repeated-tests"
+    },
+    {
+      "number": 62,
+      "tool": "SELENIUM",
+      "tip": "You can run tests in a browser located on a different machine using the Remote WebDriver in Selenium WebDriver",
+      "link": "https://www.selenium.dev/documentation/en/remote_webdriver/remote_webdriver_client"
+    },
+    {
+      "number": 63,
+      "tool": "WIREMOCK",
+      "tip": "You can easily handle the HTTPS requests in WireMock",
+      "link": "http://wiremock.org/docs/https"
+    },
+    {
+      "number": 64,
+      "tool": "TESTNG",
+      "tip": "You can create your test suites using an XML file in TestNG",
+      "link": "https://testng.org/doc/documentation-main.htmlTestNG-xml"
+    },
+    {
+      "number": 65,
+      "tool": "RESTASSURED",
+      "tip": "With RestAssured you can measure the response time",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#measuring-response-time"
+    },
+    {
+      "number": 66,
+      "tool": "JUNIT",
+      "tip": "You can parameterized test in different ways using JUnit5",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests"
+    },
+    {
+      "number": 67,
+      "tool": "SELENIUM",
+      "tip": "It's strongly recommended to use the Page Object Model in Selenium WebDriver",
+      "link": "https://www.selenium.dev/documentation/en/guidelines_and_recommendations/page_object_models"
+    },
+    {
+      "number": 68,
+      "tool": "WIREMOCK",
+      "tip": "You can extend WireMock to transform the responses, parameters, request matchers, and post-server actions",
+      "link": "http://wiremock.org/docs/extending-wiremock"
+    },
+    {
+      "number": 69,
+      "tool": "TESTNG",
+      "tip": "You can create your test suites using a YAML file in TestNG",
+      "link": "https://testng.org/doc/documentation-main.html#yaml"
+    },
+    {
+      "number": 70,
+      "tool": "RESTASSURED",
+      "tip": "With RestAssured you can do Basic Authentication like preemptive and challenged as well the digest, form authentication with CSRF",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#authentication"
+    },
+    {
+      "number": 71,
+      "tool": "JUNIT",
+      "tip": "You can customize the test display name for parameterized tests in JUnit5",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests-display-names"
+    },
+    {
+      "number": 72,
+      "tool": "SELENIUM",
+      "tip": "You can always create a fresh browser instance using the browser profile classes in Selenium WebDriver",
+      "link": "https://www.selenium.dev/documentation/en/guidelines_and_recommendations/fresh_browser_per_test"
+    },
+    {
+      "number": 73,
+      "tool": "WIREMOCK",
+      "tip": "WireMock has a library to use it together with the Spring Cloud Contract",
+      "link": "http://wiremock.org/docs/spring-boot"
+    },
+    {
+      "number": 74,
+      "tool": "TESTNG",
+      "tip": "You can display a list of the test methods that would be invoked but without actually calling them using the DryRun in TestNG",
+      "link": "https://testng.org/doc/documentation-main.html#dryrun"
+    },
+    {
+      "number": 75,
+      "tool": "RESTASSURED",
+      "tip": "You can authenticate in OAuth 1 or OAuth 2 very easily with RestAssured",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#oauth"
+    },
+    {
+      "number": 76,
+      "tool": "JUNIT",
+      "tip": "With JUnit5 you can create a Test Template",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-test-templates"
+    },
+    {
+      "number": 77,
+      "tool": "SELENIUM",
+      "tip": "There're worst practices you should avoid using Selenium WebDriver",
+      "link": "https://www.selenium.dev/documentation/en/worst_practices"
+    },
+    {
+      "number": 78,
+      "tool": "WIREMOCK",
+      "tip": "You can additionally add metadata to stub mappings, which can be later used to search or deletion, or simply retrieval on WireMock",
+      "link": "http://wiremock.org/docs/stub-metadata"
+    },
+    {
+      "number": 79,
+      "tool": "TESTNG",
+      "tip": "You can create an external class to manage your Data-Driven Tests using the <code>@DataProvider</code> in TestNG",
+      "link": "https://testng.org/doc/documentation-main.html#parameters-dataproviders"
+    },
+    {
+      "number": 80,
+      "tool": "RESTASSURED",
+      "tip": "With RestAssured you can send a large amount of data using the multipart form data technique",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#multi-part-form-data"
+    },
+    {
+      "number": 81,
+      "tool": "JUNIT",
+      "tip": "In JUnit5 you can define a <code>@Timeout</code> where the test will fail it exceeds the given duration",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-declarative-timeouts"
+    },
+    {
+      "number": 82,
+      "tool": "SELENIUM",
+      "tip": "Selenium WebDriver can set browser specific capabilities (even for IE 11)",
+      "link": "https://www.selenium.dev/documentation/en/driver_idiosyncrasies/driver_specific_capabilities"
+    },
+    {
+      "number": 83,
+      "tool": "WIREMOCK",
+      "tip": "You can use Regular Expressions in the WireMock Request Matching",
+      "link": "http://wiremock.org/docs/request-matching/#regular-expression"
+    },
+    {
+      "number": 84,
+      "tool": "TESTNG",
+      "tip": "You can test if an exception is expected using <code>@Test(expectedException = \"Exception.class\")</code> in TestNG",
+      "link": "https://testng.org/doc/documentation-main.html#success-failure"
+    },
+    {
+      "number": 85,
+      "tool": "RESTASSURED",
+      "tip": "With RestAssured you can reduce the code duplication using the Specification Re-use",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#specification-re-use"
+    },
+    {
+      "number": 86,
+      "tool": "JUNIT",
+      "tip": "In JUnit5 you can easily run the tests in Parallel",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-parallel-execution"
+    },
+    {
+      "number": 87,
+      "tool": "SELENIUM",
+      "tip": "Selenium WebDriver has a <code>Color</code> class to enable you to validate a color in any element",
+      "link": "https://www.selenium.dev/documentation/en/support_packages/working_with_colours"
+    },
+    {
+      "number": 88,
+      "tool": "WIREMOCK",
+      "tip": "You can specify the response body using a string literal or a file in WireMock",
+      "link": "http://wiremock.org/docs/stubbing/#specifying-the-response-body"
+    },
+    {
+      "number": 89,
+      "tool": "TESTNG",
+      "tip": "TestNG has 5 different pre and post conditions: suite, test, groups, class and methods",
+      "link": "https://testng.org/doc/documentation-main.html#annotations"
+    },
+    {
+      "number": 90,
+      "tool": "RESTASSURED",
+      "tip": "With RestAssured you can inspect and alter a request and response before it's returned to the expectations through a Filter",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#filters"
+    },
+    {
+      "number": 91,
+      "tool": "JUNIT",
+      "tip": "You can use the <code>@MethodSource</code> in JUnit5 to refer to one or more factory methods of the test class or external classes",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests-sources-MethodSource"
+    },
+    {
+      "number": 92,
+      "tool": "SELENIUM",
+      "tip": "Select element is the only one with a special class to use in Selenium WebDriver",
+      "link": "https://www.selenium.dev/documentation/en/support_packages/working_with_select_elements"
+    },
+    {
+      "number": 93,
+      "tool": "WIREMOCK",
+      "tip": "WireMock has a Maven plugin",
+      "link": "https://github.com/automatictester/wiremock-maven-plugin"
+    },
+    {
+      "number": 94,
+      "tool": "TESTNG",
+      "tip": "Instead of annotating each method with <code>@Test</code> you can apply it to the class in TestNG",
+      "link": "https://testng.org/doc/documentation-main.html#class-level"
+    },
+    {
+      "number": 95,
+      "tool": "RESTASSURED",
+      "tip": "With RestAssured you can Log all the request and response or only when the validation fails",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#logging"
+    },
+    {
+      "number": 96,
+      "tool": "JUNIT",
+      "tip": "In JUnit5 you have native functionality to load external data using a CSV file",
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests-sources-CsvFileSource"
+    },
+    {
+      "number": 97,
+      "tool": "SELENIUM",
+      "tip": "You can simulate a mouse event like click and hold, drag and drop, context-click, and other in Selenium WebDriver",
+      "link": "https://www.selenium.dev/documentation/en/support_packages/mouse_and_keyboard_actions_in_detail"
+    },
+    {
+      "number": 98,
+      "tool": "WIREMOCK",
+      "tip": "You can create a #Docker container and turn the WireMock standalone in a Service Virtualization",
+      "link": "https://github.com/eliasnogueira/wiremock-service-virtualization"
+    },
+    {
+      "number": 99,
+      "tool": "TESTNG",
+      "tip": "You can add any information (text) to the TestNG report",
+      "link": "https://testng.org/doc/documentation-main.html#logging-reporter-api"
+    },
+    {
+      "number": 100,
+      "tool": "RESTASSURED",
+      "tip": "With RestAssured you can relax or add an SSL cert to use in your tests",
+      "link": "https://github.com/rest-assured/rest-assured/wiki/Usage#ssl"
+    }
+  ]
