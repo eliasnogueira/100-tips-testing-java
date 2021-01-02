@@ -1,3 +1,8 @@
+/**
+ * Copyright Elias Nogueira. Licensed under MIT
+ * See license text at https://opensource.org/licenses/MIT
+ */
+
 var mybutton = document.getElementById("scrollToTop");
 
 window.onscroll = function() {scrollFunction()};
