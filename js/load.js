@@ -1,3 +1,8 @@
+/**
+ * Copyright Elias Nogueira. Licensed under MIT
+ * See license text at https://opensource.org/licenses/MIT
+ */
+
 var toolToFilter = "ALLTIPS";
 
 $(document).ready(function () {
