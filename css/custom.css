@@ -1,5 +1,11 @@
+/**
+ * Copyright Elias Nogueira. Licensed under MIT
+ * See license text at https://opensource.org/licenses/MIT
+ */
+ 
 body {
     background-color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .text-white,
