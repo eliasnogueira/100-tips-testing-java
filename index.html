@@ -7,7 +7,9 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="css\custom.css">
     <title>100 Tips of Testing with Java</title>
 </head>
@@ -55,7 +57,9 @@
         </div>
 
         <div class="container mt-4">
-            <div id="cardList" class="row">
+            <div class="container mt-4">
+                <div id="cardList" class="row">
+                </div>
             </div>
         </div>
 
@@ -65,10 +69,10 @@
             <div class="text-center center-block">
                 <a href="https://opensource.org/licenses/MIT" rel="license">The MIT License</a>
             </div>
-            
+
             <div class="text-center center-block my-md-2">
                 <a href="https://github.com/eliasnogueira" target="_blank">
-                    <i class="fab fa-github fa-3x social" ></i></a>
+                    <i class="fab fa-github fa-3x social"></i></a>
                 <a href="https://twitter.com/eliasnogueira" target="_blank">
                     <i class="fab fa-twitter fa-3x social"></i></a>
                 <a href="https://www.linkedin.com/in/eliasnogueira/" target="_blank">
@@ -81,9 +85,23 @@
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
 
     <script src="js/load.js"></script>
     <script src="js/top.js"></script>
+
+    <script id="template" type="text/template">
+        <div class='col-sm d-flex mt-4 cardItem'>
+            <div id="card" class='card' style='width: 18rem;'>
+                <div id="cardBody" class="card-body flex-fill">
+                    <h5 id="number" class="card-title">Tip #{{number}}</h5>
+                    <h6 id="tool" class="card-subtitle mb-2 text-muted">{{tool}}</h6>
+                    <p id="tip" class="card-text">{{{tip}}}</p>
+                    <a id="link" href="{{link}}" target="blank" class="card-link">Reference</a>
+                </div>
+            </div>
+        </div>
+	</script>
 </body>
 
 </html>
