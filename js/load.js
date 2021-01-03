@@ -22,7 +22,7 @@ function filterContent(tool) {
         $(cardsToRemove).remove();
 
         for (i in dataFiltered) {
-            appendText(dataFiltered[i].number, dataFiltered[i].tool, dataFiltered[i].tip, dataFiltered[i].link);
+            appendText(dataFiltered[i]);
         }
 
     }).fail(function () {
@@ -30,17 +30,10 @@ function filterContent(tool) {
     });
 }
 
-function appendText(number, tool, tip, link) {
-    content = "<div class='col-sm d-flex mt-4 cardItem'>" +
-        "<div class='card' style='width: 18rem;'>" +
-        "<div class='card-body flex-fill'>" +
-        "<h5 id='number' class='card-title'>Tip # " + number + "</h5>" +
-        "<h6 id='tool' class='card-subtitle mb-2 text-muted'>" + tool.toUpperCase() + "</h6>" +
-        "<p id='tip' class='card-text'>" + tip + "</p>" +
-        "<a id='link' href='" + link + "' target='blank' class='card-link'>Reference</a>" +
-        "</div>" +
-        "</div>" +
-        "</div>"
+// function appendText(number, tool, tip, link) {
+function appendText(data) {
+    var template = $("#template").html();
+    var output = Mustache.render(template, data);
 
-    $("#cardList").append(content);
+    $("#cardList").append(output);
 }
