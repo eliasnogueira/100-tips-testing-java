@@ -93,7 +93,7 @@
       "number": 16,
       "tool": "JUNIT",
       "tip": "With JUnit5 you can use Java 8 lambdas inside the assertions",
-      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-display-names"
+      "link": "https://junit.org/junit5/docs/current/user-guide/#writing-tests-assertions"
     },
     {
       "number": 17,
